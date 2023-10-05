@@ -18,6 +18,8 @@ for (const proo of program){
 for (i = program.length; i>0; i--){     //Задание 3
     console.log(program[i])
 }
+console.log(randomNumber);
+console.log(rNgNum);
 if (randomNumber > 0.7 && rNgNum > 0.7){    //Задание 4
    alert("First variant")
 }  else if (randomNumber< 0.2 || rNgNum < 0.2) {
