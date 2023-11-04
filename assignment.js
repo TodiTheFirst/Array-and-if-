@@ -27,3 +27,31 @@ if (randomNumber > 0.7 && rNgNum > 0.7){    //Задание 4
 } else {
     alert('Well something happend')
 }
+
+const person = { name: 'Oleg', hobbies:['Sports', 'Cooking']};
+
+person.age = 30;
+
+anotherPersone
+
+const person2 = {...person};
+
+persone.age = 31;
+
+person.hobbies.push('Coding');
+
+console.log(person);
+console.log(person2);
+
+const person3 = {...person,age: 29, hobbies:[...person.hobbies]};
+ console.log(person3)
+// использовать разделительного оператора для создания копий обьектов рекомендуется использовать только при неглубоком копировании
+
+
+
+ const person = {ame: 'Boo'};
+;
+
+
+
+
